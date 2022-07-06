@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd $1
-ls | tee names.txt
+dir_name="$1"
+ls "$dir_name" | tee names.txt
